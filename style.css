@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(226,226,226);
+  }
+
+#searchbar{
+  display: flex;
+   width: 30vw;
+   height: 5vh;
+   box-sizing: border-box;
+   border-radius: 5px;
+   border: 2px solid rgb(122, 123, 122);
+   margin-top: 20px;
+   margin-left: 35vw;
+   font-size: large;
+}
+
+.heading{
+    display: flex;
+    color:rgb(7, 6, 69);
+    margin: 0px;
+   justify-content: center;
+}
+
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.box{
+  width: 100%;
+  margin: 10px;
+  max-width: 400px;
+  height: 500px;
+  box-shadow: 0 0.6rem 2rem rgba(26, 26, 26, 0.2);
+  border-radius: 10px;
+  /* border-radius: 10px 100px / 120px 100px; */
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  justify-content: space-between;
+  /* background-color: rgb(99,89,239); */
+  background-color: rgb(46,50,74);
+}
+
+.jeed{
+background-color: rgb(65, 70, 98);
+}
+
+.pokeimage {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  background-color: rgb(46,50,74);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.ball1{
+  height: 20px;
+  width: 20px;
+  background-color:  rgb(186,41,125);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.ball2{
+  height: 20px;
+  width: 20px;
+  background-color:  rgb(99,89,239);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.pokeid{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.pokename, .pokeid{
+  color: rgb(245,248,252);
+  background-color: rgb(46,50,74);
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+.type{
+  color: rgb(245,248,252);
+  background-color: rgb(46,50,74);
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.types{
+  color:black;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px 100px / 120px 100px;
+  /* border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px; */
+}
+
+.height{
+  background-color: rgb(46,50,74);
+  
+}
+
+.weight{
+  background-color: rgb(46,50,74);
+  margin-left: 175px;
+}
+
+.hw{
+  color:black;
+  padding: 5px;
+  margin: 5px;
+  /* border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px; */
+  border-radius: 10px 100px / 120px 100px;
+}
+
+
+.first-next-btn{
+  color:black;
+  width: 150px;
+  border-radius: 10px 100px / 120px 100px;
+  background-color:  rgb(99,89,239);
+  padding: 15px 32px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.previous-last-btn{
+  color:black;
+  width: 150px;
+  border-radius: 10px 100px / 120px 100px;
+  background-color:  rgb(186,41,125);
+  padding: 15px 32px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.box:hover{
+  transform: translate(-2px, -2px);
+}
